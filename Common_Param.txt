@@ -1,0 +1,26 @@
+# TPLogs project team
+<DB Related Params>
+
+Token name(some pages might use tokens, so different names to differentiate them)
+
+Token Name          Used in pages:
+==========          ====================
+e.g Token1          e.g Ex1.php, Ex2.php
+
+
+
+
+Variable Name         Purpose of variable
+=============         ====================
+$con                  for connecting to DB
+
+Global variable                     Purpose
+=====================               =========
+$_SESSION['loggedin']               Log in page boolean true if logged in
+$_SESSION['id_for_user']            Id of the user that is logged in
+$_SESSION['id_for_admin']           Id of the admin that is logged in
+
+$_SESSION['token']                  Randomly generated token for verification purposes
+$_SESSION['roles']                  Taskbar will use this to detect the role of the user and assign the taskbar accordingly
+<Site to Site Params>
+  
