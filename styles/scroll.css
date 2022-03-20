@@ -1,0 +1,13 @@
+.inner {
+    height: 300;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  .outer {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    overflow-y: scroll;
+  }
